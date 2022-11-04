@@ -337,11 +337,12 @@
 }
 
 .social-links {
-  margin-top: 30px;
+  margin-top: 31px;
   margin-bottom: 23px;
 }
 @media screen and (min-width: 1400px) {
   .social-links {
+    margin-top: inherit;
     margin-left: auto;
     margin-bottom: 0;
   }
@@ -608,9 +609,12 @@
     margin-left: auto;
   }
 }
+.headline__action-btn {
+  width: 100%;
+}
 @media screen and (min-width: 1400px) {
   .headline__action-btn {
-    width: 100%;
+    width: 158px;
   }
 }
 
@@ -674,7 +678,7 @@
   .order {
     padding: 73px 0 72px 0;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: flex-start;
   }
 }

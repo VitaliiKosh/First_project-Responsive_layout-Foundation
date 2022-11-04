@@ -145,10 +145,11 @@
 }
 
 .social-links {
-  margin-top: 30px;
+  margin-top: 31px;
   margin-bottom: 23px;
 
   @include for-large-up {
+    margin-top: inherit;
     margin-left: auto;
     margin-bottom: 0;
   }
