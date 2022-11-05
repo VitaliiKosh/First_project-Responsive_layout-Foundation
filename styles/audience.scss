@@ -4,8 +4,8 @@
   @include for-large-up {
     margin: auto;
     margin-top: 110px;
-    width: 100%;
     padding: 0;
+    width: 100%;
   }
 
   &__actions {
@@ -20,15 +20,15 @@
   }
 
   &__learn-more-btn {
-    background-color: #fff;
-    color: #3040c4;
+    margin-top: 12px;
     width: 100%;
     height: 48px;
+    background-color: $text-color-white;
+    color: $background_color_blue;
     font-size: 18px;
     font-weight: 700;
     border-radius: 2px;
     border: none;
-    margin-top: 12px;
 
     @include for-large-up {
       margin-left: 10px;
@@ -55,7 +55,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 34px;
-    color: #2b292d;
+    color: $color-dark;
 
     @include for-large-up {
       margin-top: 68px;
@@ -69,7 +69,7 @@
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.357143px;
-    color: #2b292d;
+    color: $color-dark;
 
     @include for-large-up {
       margin-top: 24px;
@@ -87,7 +87,7 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 34px;
-    color: #2b292d;
+    color: $color-dark;
 
     @include for-large-up {
       margin: 30px 0 34px 0;
@@ -116,11 +116,11 @@
 }
 
 .user-card {
-  margin: 15px;
-  padding: 22px 0 33px 0;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 15px;
+  padding: 22px 0 33px 0;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1), 0px 4px 6px rgba(0, 0, 0, 0.05),
     inset 0px 1px 0px rgba(255, 255, 255, 0.1);
   border-radius: 8px;
@@ -129,7 +129,7 @@
       rgba(255, 255, 255, 0.05) 0%,
       rgba(255, 255, 255, 1e-5) 100%
     ),
-    #ffffff;
+    $text-color-white;
   background-blend-mode: overlay, normal;
   cursor: pointer;
 
@@ -142,9 +142,9 @@
   }
 
   @include for-large-up {
+    margin: 111px 30px 110px 0;
     width: 262px;
     height: 300px;
-    margin: 111px 30px 110px 0;
 
     &:first-child {
       margin-left: 130px;

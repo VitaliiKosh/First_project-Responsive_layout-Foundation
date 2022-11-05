@@ -18,7 +18,7 @@
 html {
   font-size: 16px;
   font-family: "Work Sans", sans-serif;
-  color: #2b292d;
+  color: $color-dark;
 }
 
 .page {
@@ -28,10 +28,10 @@ html {
 
 @media screen and (min-width: 400px) {
   .page {
-    width: 1400px;
-    margin: auto;
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: auto;
+    min-height: 100vh;
+    width: 1400px;
   }
 }
