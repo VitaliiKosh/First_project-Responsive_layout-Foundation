@@ -14,4 +14,4 @@
 
 ### Author:
 
-### Vitalii Koshliak & Gromcode's mentor.
+### Vitalii Koshliak.
