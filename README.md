@@ -14,4 +14,4 @@
 
 ### Author:
 
-### Vitalii Koshliak.
+### Vitalii Koshliak
