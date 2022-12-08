@@ -1,6 +1,8 @@
 # The first project of the Gromcode Univercity course: Foundation layout.
 
-### [Project link](https://github.com/VitaliiKosh/First_project-Responsive_layout-Foundation)
+### [Site link](https://vitaliikosh.github.io/First_project-Responsive_layout-Foundation/)
+
+### [Project link on GitHub](https://github.com/VitaliiKosh/First_project-Responsive_layout-Foundation)
 
 ### The tech stack is:
 
