@@ -29,11 +29,16 @@
   }
 
   &__title {
+    text-align: center;
     font-weight: 700;
     font-size: 40px;
     line-height: 40px;
     letter-spacing: -0.357143px;
     margin-top: 40px;
+
+    @include for-large-up {
+      text-align: left;
+    }
   }
 
   &__text {
@@ -67,10 +72,16 @@
     &::placeholder {
       color: $color-dark;
     }
+
+    @include for-large-up {
+      text-align: left;
+      padding-left: 15px;
+    }
   }
 
   &__button {
     margin-top: 12px;
+    cursor: pointer;
 
     @include for-large-down {
       width: 100%;

@@ -29,6 +29,7 @@
     font-weight: 700;
     border-radius: 2px;
     border: none;
+    cursor: pointer;
 
     @include for-large-up {
       margin-left: 10px;
@@ -43,7 +44,7 @@
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 40px 15px 0 15px;
+  padding-top: 40px;
 
   @include for-large-up {
     display: flex;
@@ -99,6 +100,7 @@
 
 .action-button {
   width: 100%;
+  cursor: pointer;
 
   @include for-large-up {
     width: 158px;
@@ -158,6 +160,7 @@
 
   &:hover {
     background-color: $text-color-blue;
+    color: $text-color-white;
 
     figcaption {
       color: $text-color-white;

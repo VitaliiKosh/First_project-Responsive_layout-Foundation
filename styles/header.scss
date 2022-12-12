@@ -16,6 +16,7 @@
 
   &__button {
     display: none;
+    cursor: pointer;
 
     @include for-large-up {
       display: block;

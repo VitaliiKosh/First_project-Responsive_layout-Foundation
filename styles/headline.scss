@@ -73,6 +73,7 @@
     font-weight: 700;
     border-radius: 2px;
     border: none;
+    cursor: pointer;
 
     @include for-large-up {
       margin-left: 10px;
@@ -96,6 +97,7 @@
 
   &__action-btn {
     width: 100%;
+    cursor: pointer;
 
     @include for-large-up {
       width: 158px;
