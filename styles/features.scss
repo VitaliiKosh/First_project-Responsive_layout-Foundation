@@ -52,7 +52,7 @@
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    color: #3142c6;
+    color: $text-color-blue;
   }
 
   &__advantage-description {
@@ -61,7 +61,7 @@
     padding-bottom: 20px;
     font-size: 18px;
     line-height: 26px;
-    border-bottom: 3px solid #3142c6;
+    border-bottom: 3px solid $text-color-blue;
   }
 
   &__advantage-item {
