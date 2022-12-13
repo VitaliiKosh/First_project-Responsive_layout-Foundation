@@ -29,8 +29,10 @@
   }
 
   .logo {
-    @include for-large-down {
-      display: none;
+    display: none;
+
+    @include for-large-up {
+      display: flex;
     }
   }
 }

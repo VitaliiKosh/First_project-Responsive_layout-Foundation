@@ -1,9 +1,9 @@
 .features {
-  display: flex;
+  display: none;
   position: relative;
 
-  @include for-large-down {
-    display: none;
+  @include for-large-up {
+    display: flex;
   }
 
   &__content {
