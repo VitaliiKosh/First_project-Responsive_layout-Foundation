@@ -2,7 +2,7 @@
 
 ### [Site link](https://vitaliikosh.github.io/Foundation_layout/)
 
-### [Project link on GitHub](https://github.com/VitaliiKosh/First_project-Responsive_layout-Foundation)
+### [Project link on GitHub](https://github.com/VitaliiKosh/Foundation_layout)
 
 ### Layout supports mobile (up-to-320px) and desktop (from-to-1400px) versions
 
