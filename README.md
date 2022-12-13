@@ -1,6 +1,6 @@
 # Foundation layout
 
-### [Site link](https://vitaliikosh.github.io/First_project-Responsive_layout-Foundation/)
+### [Site link](https://vitaliikosh.github.io/Foundation_layout/)
 
 ### [Project link on GitHub](https://github.com/VitaliiKosh/First_project-Responsive_layout-Foundation)
 
